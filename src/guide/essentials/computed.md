@@ -78,7 +78,7 @@ export default {
     // a computed getter
     publishedBooksMessage() {
       // `this` points to the component instance
-      return this.author.books.length > 0 ? 'Yes' : 'No'
+      return this.author.books.length > 0 ? '1' : '2'
     }
   }
 }
